@@ -10,7 +10,7 @@ using namespace std;
 using namespace cv;
 int main()
 {
-	//读取本地的一张图片，将图像二值化，连通域标记,将硬币的个数 输出至状态栏!
+	//读取本地的一张图片，将图像二值化，连通域标记,将硬币的个数 输出至状态栏!!
 	cv::Mat srcMat = imread("C:/Users/lenovo/Desktop/数图图片/IMG_1989.JPG");
 	//二值化
 	Mat g_src, labels, stats, centroids, open_src;
